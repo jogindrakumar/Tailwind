@@ -4,10 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
 </head>
 <body>
 <div class="main w-full h-screen">
-    <div class="container mx-auto"></div>
+    <div class="container mx-auto">
+        <div class="navbar flex justify-between items-center  w-full py-3 px-4 ">
+            <h3>Seagle</h3>
+          <div class="hidden lg:flex links flex gap-10">
+            <a href=""  class="text-sm">Home</a>
+            <a href="" class="text-sm opacity-50">About</a>
+            <a href="" class="text-sm opacity-50">Contact</a>
+            <a href="" class="text-sm opacity-50">Pricing</a>
+          </div>
+          <i class="ri-menu-line lg:hidden "></i>
+        </div>
+        <div class="w-full flex flex-col items-center mt-20">
+            <div class="image w-24 h-24 bg-green-200 rounded-full flex items-center justify-center ">
+                <img src="emoji.png"  class="w-14" alt="">
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>
